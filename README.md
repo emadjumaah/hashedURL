@@ -1,2 +1,0 @@
-# hashedURL
-Created with CodeSandbox
