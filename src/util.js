@@ -8,7 +8,7 @@ export const hashOriginalUrl = (url, secret, algorithm = "sha1") => {
     .digest("hex");
 };
 
-export const generateUrl = (urlToHash, secret) => {
+export const generateHashedUrl = (urlToHash, secret) => {
   const hash = hashOriginalUrl(urlToHash, secret);
   return `${urlToHash}?${hash}`;
 };
