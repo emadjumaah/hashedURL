@@ -1,9 +1,9 @@
-import { generateHashedUrl, validateUrl } from "./util";
+import { generateHashUrl, validateUrl } from "./util";
 
 const originalUrl = "http://ayshee.net/200x200/image1.png";
 const secret = "ayshee.net";
 
-const createUrl = generateHashedUrl(originalUrl, secret);
+const createUrl = generateHashUrl(originalUrl, secret);
 
 console.log(createUrl);
 
