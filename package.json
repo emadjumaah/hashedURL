@@ -6,7 +6,9 @@
   "scripts": {
     "start": "nodemon src/index.js localhost 8080"
   },
-  "dependencies": {},
+  "dependencies": {
+    "node": "10.12.0"
+  },
   "devDependencies": {
     "nodemon": "1.18.4"
   }
